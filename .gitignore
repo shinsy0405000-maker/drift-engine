@@ -1,0 +1,19 @@
+.gradle/
+build/
+out/
+.idea/
+*.iml
+native/build/
+# NVIDIA 바이너리(Streamline/DLSS)는 저장소에 넣지 않는다 (라이선스/용량)
+native/external/
+*.log
+# Streamline/DLSS 등 런타임 DLL
+natives/
+# 사용자별 설정 파일 (실행하면 자동 생성)
+settings.properties
+logs/
+# 게임 저장 (돈·차·튜닝, 실행하면 자동 생성)
+save/
+# 파이썬 캐시 (차 모델 도구)
+__pycache__/
+*.pyc
